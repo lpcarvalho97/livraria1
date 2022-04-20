@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans' , sans-serif;
+    
+}
+
+#menu-h ul{
+    align-items: center;
+    list-style-type:none;
+    padding: 0;
+    background-color: blue;
+}
+
+#menu-h ul li{
+    display: inline;
+}
+
+#menu-h ul li a{
+color: rgb(255, 255, 255);
+padding: 20px;
+display: inline-block;
+text-decoration: none;
+transition: background .3s;
+}
+
+#menu-h ul li a:hover{
+   background-color: rgb(51, 51, 51);
+}
+
+#titulo{
+    color: rgb(41, 39, 39);
+    text-align: center;
+
+}
+
+#um{
+    color: black;
+}
+
+#dois {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#dois a{
+    color: rgb(47, 43, 66);
+    text-decoration: none;
+}
+
+img{
+    float: right;
+    animation: mySlide;
+    animation-duration: 5s;
+}
+@keyframes mySlide{
+    from{margin-right: 100%;}
+    to{margin-right: 0%;}
+}
+body{
+    background: linear-gradient(blue, rgb(90, 90, 248), yellow);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}        
+h3{
+    color: rgb(255, 255, 255);
+}
+h5{
+    color: rgb(0, 17, 255);
+    
+}
+h1{
+    color: yellow;
+        
+}
+p{
+    color: aliceblue   ;
+
+}   
+ol{
+    color: aliceblue;
+}
+ul{
+    color: blue;
+}
